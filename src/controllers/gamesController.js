@@ -1,4 +1,4 @@
-import { db } from "../database/databaseConnection.js";
+import db from "../database/databaseConnection.js";
 
 
 export async function createGames(req, res) {

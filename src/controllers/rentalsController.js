@@ -1,5 +1,5 @@
 import dayjs from "dayjs";
-import { db } from "../database/databaseConnection.js";
+import db from "../database/databaseConnection.js";
 
 async function formatDate(date) {
   return dayjs(date).format("YYYY-MM-DD");
